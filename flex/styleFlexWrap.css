@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+/* se puede practicar las propiedades de Flex mediante un pequeño juego.
+https://flexboxfroggy.com/#es */
+
+/*utilizando flex-wrap:wrap en el contenedor padre .container
+junto con la propiedad flex-basis y flex-grow (en todas las cajas)
+se obtiene un resultado responsive */
+.container{
+    border: .3rem solid black;
+    display: flex; /*Por defecto cuando ponemos display flex se acomodarán
+    los elementos en columna o row*/
+    flex-wrap: wrap;     
+}
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: blueviolet;
+}
+.box3 {
+    background-color: burlywood;
+}
+.box4 {
+    background-color: cadetblue;
+}
+.box5 {
+    background-color: coral;
+}
+.box6 {
+    background-color: red;
+}
