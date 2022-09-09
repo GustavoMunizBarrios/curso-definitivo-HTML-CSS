@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw; /*View width hará que el contenedor de main este ocupado
+    el 100% de la vista*/
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+section {
+    width: 80%;
+    min-width: 320px; /*se tendrá un ancho minimo de 320px*/
+    max-width: 500px;/*se limitará un ancho máximo de 500px*/
+    min-height: 500px;/*Se tendrá una altura minima de 500px*/
+    margin: 0 auto; /*De arriba a abajo no se agrega nada pero de 
+    izquierda a derecha se ajusta de forma automática*/
+    background-color: red;
+}

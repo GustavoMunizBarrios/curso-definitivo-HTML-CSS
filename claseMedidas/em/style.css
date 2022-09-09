@@ -1,0 +1,11 @@
+
+.textContainer {
+    font-size: 2em; /*em toma como unidad el font-size padre general
+    en este ejemplo el padre general es el formato html 
+    (con font-size de 16px) por lo que 2em va a equivaler a 32px*/
+}
+.textContainer div {
+    font-size: 2em; /*En este otro div con padre .textContainer 
+    el em tomará  como referencia los 32px del padre, por lo que el 
+    tamaño final será de 64px */
+}

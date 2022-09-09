@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+
+.parent{
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 10.0rem;
+    height: 10rem;
+}
+#two {
+    background-color: green;
+}

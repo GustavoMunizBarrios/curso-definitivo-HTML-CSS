@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+/* .parent{
+    border: 1px solid black;
+} */
+.title {
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    width: 25rem;
+    height: 7rem;
+    background-color: red;
+    margin: auto;
+    position: relative;
+    bottom: -3.5rem;
+
+}
+.title h2{
+    margin: 1.5rem;
+    padding-left: 5rem;
+}
+.texto {
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 50rem;
+    height: 30rem;
+    background-color: gainsboro;
+    margin: auto;
+}
+.texto p{
+    width: 40rem;
+    height: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 8.5rem 4rem 0rem 4rem;
+}

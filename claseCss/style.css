@@ -1,0 +1,17 @@
+/* Selectores en CSS */
+
+/* Por elemento */
+p {
+    color: blue;
+    font-size: 30px;
+}
+/*Por class */
+.parrafo {
+    color: red;
+}
+
+/*Por ID */
+#texto{
+    color: yellow;
+    font-size: 24px;
+}

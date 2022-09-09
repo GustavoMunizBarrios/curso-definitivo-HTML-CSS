@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="block-element">Esta es una etiqueta div</div><!--display-block-->
+    <p class="block-element">Esta es una etiqueta de párrafo</p>
+    <div class="block-element">
+        <p class="parrafo">Soy texto</p> <!--display:block-->
+        <p class="parrafo">Soy texto</p>
+        <p class="parrafo">Soy texto</p>
+    </div>
+    <!--La etiqueta span por defecto tiene un estilo display:inline
+    es decir el texto solo ocupará el espacio de su contenido y si queda
+    espacio lo pondrá en la misma linea el siguiente.
+
+     En el span no se puede dar un margin en la parte top o bottom,
+    solo podría utilizarlo para la parte derecha o izquierda. 
+
+    Tampoco se le puede dar un width o height-->
+
+    <span>Soy una etiqueta span</span> <!--Display-inline-->
+    <span>Soy una etiqueta span</span>
+
+    <ul class="nav"><!--display:block-->
+        <li>Home</li><!--display:list-item-->
+        <li>Cursos</li>
+        <li>Instrucciones</li>
+        <li>Blog</li>
+
+    </ul>
+</body>
+</html>

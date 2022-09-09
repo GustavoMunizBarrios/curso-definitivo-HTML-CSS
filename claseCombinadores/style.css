@@ -1,0 +1,20 @@
+/******* COMBINATORS *******/
+
+/* Adjacent sibling (hermano adjacente o cercano) */
+
+.adjacentSibling h2 + p { /*Aplica el color rojo a todas las etiquetas párrafo
+    que esten cerca de un h2*/
+    color: red;
+}
+
+/* General sibling (hermano general) */
+.generalSibling h2 ~ p {/*Aplica el color rojo a todos los hermanos 
+    generales de h2 y p */
+    color: red;
+}
+
+.childDescendant div > p { /*La etiqueta parrafo sea hija directa de la 
+    etiqueta div*/
+    color: red;
+
+}

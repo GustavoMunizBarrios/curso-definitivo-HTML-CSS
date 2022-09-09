@@ -1,0 +1,14 @@
+*{ /*Aplica estilos a toda la página*/
+    box-sizing: border-box; /*Se calcula automaticamente por lo que 
+    del tamaño del width que se tiene se va a restar el padding 
+    y el border para que no se salga del navegador*/
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px; /* 20px de arriba hacia abajo y 35px de derecha a izquierda*/
+}

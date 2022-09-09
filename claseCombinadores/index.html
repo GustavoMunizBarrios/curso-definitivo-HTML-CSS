@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Adjacent sibling (hermano adjacente o cercano) -->
+    <div class="adjacentSibling">
+        <h2>soy un h2</h2>
+        <p>Lorem ipsum dolor, sit amet
+         consectetur adipisicing elit. Architecto
+         animi nam, vitae itaque optio temporibus 
+         dolorum dignissimos sequi necessitatibus 
+         velit delectus consectetur voluptatum 
+         eveniet aut provident ullam! Ipsum,
+         eum sequi?
+        </p>
+        <h2>Soy otro h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy otro párrafo (no lorem ipsum)</p>
+        <h2>soy un h2</h2>
+        <p>Soy otro párrafo para variar</p>
+    </div>
+    <!--General sibling-->
+    <div class="generalSibling">
+        <h2>-------------------------------------------------</h2>
+        <h2>Soy un h2</h2>
+        <p>soy un parrafo</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un p</p>
+        <p>soy un p</p>
+    </div>
+    <div class="childDescendant">
+        <div>
+          <h2>-------------------------------------------------</h2>
+          <article>
+              <p>soy un texto</p>
+          </article>
+
+          <article>
+              <p>soy un texto</p>
+          </article>
+
+          <section>
+              <div>
+                  <p>soy un texto</p>
+              </div>
+          </section>
+
+          <p>soy un texto</p>
+        </div>
+    </div>
+</body>
+</html>

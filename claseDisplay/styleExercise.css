@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+.header{
+    background-color: rgb(152, 167, 179);
+    /* display: inline-block; */
+}
+.header-image{
+    width: 8rem;
+    height: 5rem;
+    /* display: inline-block; */
+}
+.header-image img {
+    width: 5rem;
+    margin: 1rem;
+    /* height: fit-content; */    
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    right: 3rem;
+    top: 1.5rem;
+}
+.nav li{
+    display: inline-block;
+    /* margin: 10px 0; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/*--------MAIN------------*/
+
+.cuadros{
+    /* display: inline-block; */
+    background-color: aquamarine;
+    padding: .4rem;
+    width: 25%;
+    height: 55rem;
+
+}
+.cuadros div {
+    border: .1rem solid;
+    margin: .7rem;
+    width: 90%;
+    height: 22%;
+    border-radius: .5rem;
+    background-color: brown;
+
+}
+.texto{
+    background-color: beige;
+    width: 75%;
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+    right: 0rem;
+    height: 55rem;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
+/*-------FOOTER------------*/
+.footer{
+    background-color: rgb(185, 150, 34);
+    height: 5rem;
+}
+.footer p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: .9rem;
+}

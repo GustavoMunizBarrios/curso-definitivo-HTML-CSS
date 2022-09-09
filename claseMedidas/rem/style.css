@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+p {
+    font-size: 1.6rem; /*rem siempre tendrá de referencia el font-size
+    root de nuestro proyecto*/
+}
+main div {
+    font-size: 1.6px;
+}

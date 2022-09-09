@@ -1,0 +1,28 @@
+.main-nav {
+    margin-top:10px ;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(39, 154, 180);
+}
+.main-nav_item {
+    display: inline-block;
+}
+.main-nav_item a {
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Pseudo clases */
+.main-nav_item a:hover { /*Cambia de estado cuando se pasa el cursor por encima*/
+    color: blue;
+}
+.main-nav_item a:active {/*Cambia de estado cuando es presionado*/
+    color: red;
+}
+
+/* Pseudo elementos */
+
+.main-nav_item a::after {/*After: despues del elemento agrega:... */
+    content: " - ";
+}
