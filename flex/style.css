@@ -13,7 +13,12 @@ body{
     border: .3rem solid black;
     display: flex; /*Por defecto cuando ponemos display flex se acomodarán
     los elementos en columna o row*/
-    justify-content: center;
+    align-items: center; /*Aquí se alinearán los items de forma vertical
+    en el centro*/
+    height: 50vh; /*La altura del container estará siempre al 50% de la
+    vista de la pantalla*/
+
+    
 }
 .box{
     width: 10rem;
@@ -21,6 +26,8 @@ body{
 }
 .box1 {
     background-color: blue;
+    flex-grow: 1; /*Aquí la box1 crecerá mas y su crecimiento será 
+     igual al tamaño de la pantalla hasta llenar los espacios en blanco*/ 
 }
 .box2 {
     background-color: blueviolet;
