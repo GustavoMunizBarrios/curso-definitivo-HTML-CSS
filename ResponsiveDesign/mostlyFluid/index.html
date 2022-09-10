@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <!--Cuando el navegador se abra con un viewport mayor a 600px
+    entonces se descargará el CSS tablet.css-->
+    <link rel="stylesheet" 
+    href="./tablet.css" 
+    media="screen and (min-width:600px)">
+
+        <!--Cuando el navegador se abra con un viewport mayor a 800px
+    entonces se descargará el CSS desktop.css-->
+    <link rel="stylesheet" 
+    href="./desktop.css" 
+    media="screen and (min-width:800px)">
+
+    <title>Mostly Fluid</title>
+</head>
+<body>
+    <main class="container">
+        <div class="c1 box"></div>
+        <div class="c2 box"></div>
+        <div class="c3 box"></div>
+        <div class="c4 box"></div>
+        <div class="c5 box"></div>
+    </main>
+</body>
+</html>

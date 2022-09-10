@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+.c1{
+    background-color: rgb(199, 103, 24);
+}
+.c2{
+    background-color: aqua;
+}
+.c3{
+    background-color: bisque;
+}
+.c4{
+    background-color: yellowgreen;
+}
+.c5{
+    background-color: blue;
+}
+
+/* @media (min-width: 600px){ /*Cuando la pantalla sea de 600px en adelante
+    entonces aplicará el siguiente código 
+    .c2, .c3, .c4 {
+        width: 50%;
+    }
+} */
+/* @media (min-width: 800px) {
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1 {
+        width: 60%;
+    }
+    .c2{
+        width: 40%;
+    }
+    .c3, .c4{
+        width: 33%;
+    }
+    .c5{
+        width: 34%;
+    }
+    
+} */
+
