@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1, .c2, .c3, .c4, .c5{
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+.c4 {
+    height: auto;
+}
+.c1{
+    background-color: rgb(199, 103, 24);
+}
+.c2{
+    background-color: aqua;
+}
+.c3{
+    background-color: bisque;
+}
+.c4{
+    background-color: yellowgreen;
+}
+.c5{
+    background-color: blue;
+}
+@media (min-width: 600px){
+    .c1{
+        width: 25%;
+    }
+    .c4{
+        width: 75%;
+    }
+    .c5 {
+        width: 100%;
+    }
+}
+@media (min-width: 800px){
+    .container{
+        width: 800px; /*limita el tamaño del ancho a 800px*/
+        margin-left: auto; /*Esto es para que se pueda centrar*/
+        margin-right: auto;
+
+        margin: 0 auto; /*Esto es una segunda opción para reemplazar 
+        las dos lineas de arriba. Lo que dice esta instrucción es:
+        de arriba a abajo no generes margin y de derecha e izquierda
+        agrega un margen automatico */
+    }
+    .c1{
+        width: 50%;
+        order: 1;
+    }
+    .c4{
+        width: 100%;
+    }
+    .c5 {
+        width: 50%;
+        order: 2;
+    }
+}
