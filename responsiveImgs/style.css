@@ -1,0 +1,4 @@
+/*En imagenes responsive el width 100% es el mejor amigo*/
+img {
+    width: 100%;
+}
