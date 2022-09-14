@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
+    cada rem sea equivalente a 10px */
+}
+/*Cuando se implementa rem en el proyecto se pueden usar las herramientas
+de accesibilidad del navegador*/
+h1 { font-size: 3rem; }
+
+p { font-size: 1.8rem; }
